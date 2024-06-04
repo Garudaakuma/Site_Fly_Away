@@ -1,0 +1,133 @@
+body{
+    background-color: #212721
+}
+
+/* !!! ORÇAMENTO: FORMS !!!*/
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 15px;
+    color: #203212;
+    background-color: #a7bfac;
+}
+.form h1{
+    text-align: center;
+}
+form{   
+    width: 80%; /* Define a largura do formulário como 80% da largura do contêiner pai */
+    max-width: 300px; /* Define a largura máxima do formulário */
+    align-items: center;
+    margin: 0 auto; 
+    display:grid;
+}
+#obs{
+    height: 200px;
+    width:  300px;
+}
+
+/* !!! HOME: SERVIÇOS !!!*/
+.servicos{ 
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/* !!! HOME: DESTINO VIAGENS !!! */
+.destinos_viagens {
+    display: flex;
+    align-items: center;
+}
+
+.destino {
+    outline: solid 30px #779d7f;
+    background-color: #779d7f;
+    border-radius: 25px;
+    margin: 70px;
+    text-align: center;
+}
+.destino h1 {
+    text-align: center;
+    color: #a7bfac;
+    background-color: #63896a;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.destino img {
+    width: 300px;
+    background-color: #779d7f;
+    border-radius: 25px;
+}
+.destino ul {
+    border: solid 2px #274013;
+    border-radius: 25px;
+    background-color: #63896a;
+}
+.destino p {
+    color: aliceblue;
+    border: solid 2px #274013;
+    border-radius: 25px;
+    background-color: #63896a ;
+}
+.destino li {
+    padding: 5px;
+    text-align: justify;
+}
+
+/* !!! NAVEGAÇÃO SUPERIOR !!! */
+.nav_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin: 15px;
+    background-color: #63896a;
+    border-radius: 10px;
+}
+.nav_top .button_choice{
+    text-decoration: none;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #274013;
+    background-color: #779d7f;
+}
+.nav_top .active {
+    text-decoration: none;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: aliceblue;
+    background-color: #203212;
+}
+
+
+
+/*!!! footer !!!*/
+.footer {
+    position:relative ;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 20px;
+    background-color: #63896a;
+    border-radius: 10px;
+}
+.footer .button_choice{
+    text-decoration: none;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #274013;
+    background-color: #779d7f;
+}
