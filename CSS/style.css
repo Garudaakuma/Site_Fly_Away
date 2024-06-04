@@ -47,6 +47,61 @@ body{
     width:  300px;
 }
 
+/* !!! HOME: PARCERIAS !!! */
+.logo_hoteis, .logo_carros {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hoteis, .carros {
+    border: solid 4px #63896a;
+    background-color: #779d7f;
+    margin-bottom: 80px;
+    border-radius: 25px;
+}
+
+.logo {
+    padding-inline: 150px;
+}
+.logo a {
+    text-decoration: none;
+    color: #203212;
+}
+
+.logo img {
+    width: 80px;
+    border-radius: 100%;
+    border: solid 4px #203212;
+}
+
+.empresas_parceiras {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.empresas_parceiras h3 {
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #63896a;
+    padding: 7px;
+}
+
+.hoteis h1 {
+    margin-inline:590px;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: #63896a;
+    color: #a7bfac;
+}
+.carros h1 {
+    margin-inline:500px ;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: #63896a;
+    color: #a7bfac;
+}
+
 /* !!! HOME: SERVIÇOS !!!*/
 .Servicos_sec {
     display: flex;
@@ -133,6 +188,12 @@ body{
     background-color: #63896a;
     border-radius: 10px;
 }
+
+.nav_top .logo_fly_away {
+    width: 10%;
+    border-radius: 15px;
+}
+
 .nav_top .button_choice{
     text-decoration: none;
     margin: 15px;
@@ -151,8 +212,6 @@ body{
     color: aliceblue;
     background-color: #203212;
 }
-
-
 
 /*!!! footer !!!*/
 .footer {
