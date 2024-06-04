@@ -3,38 +3,82 @@ body{
 }
 
 /* !!! ORÇAMENTO: FORMS !!!*/
-.form {
+.forms_sec .form {
     display: flex;
     flex-direction: column;
+    margin: 15px;
     padding: 15px;
     border-radius: 15px;
     color: #203212;
+    background-color: #779d7f;
+}
+.forms_sec .form h1{
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: #a7bfac;
+    background-color: #63896a;
+}
+.forms_sec form {
+    align-items: center;
+    margin: 0 auto;
+    display:grid;
+    width: 80%;         /* Define a largura do formulário como 80% da largura do contêiner pai */
+    max-width: 300px;   /* Define a largura máxima do formulário */
+    padding: 15px;
+    border-radius: 25px;
+    border: solid 2px #274013;
+    background-color: #63896a;
+}
+
+.forms_sec form label {
+    padding: 10px;
+    color: #212721;
+}
+
+.forms_sec form .submit {
+    margin: 12px;
+    color: #212721;
     background-color: #a7bfac;
 }
-.form h1{
-    text-align: center;
-}
-form{   
-    width: 80%; /* Define a largura do formulário como 80% da largura do contêiner pai */
-    max-width: 300px; /* Define a largura máxima do formulário */
-    align-items: center;
-    margin: 0 auto; 
-    display:grid;
-}
+
 #obs{
     height: 200px;
     width:  300px;
 }
 
 /* !!! HOME: SERVIÇOS !!!*/
+.Servicos_sec {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #779d7f;
+}
+
+.Servicos_sec h1 {
+    text-align: center;
+    width: 85%;
+    padding: 15px;
+    border-radius: 10px;
+    color: #a7bfac;
+    background-color: #63896a;
+}
+
+.Servicos_sec h4 {
+    padding: 15px;
+    border: solid 2px #274013;
+    border-radius: 25px;
+    background-color: #63896a;
+}
+
 .servicos{ 
     display: flex;
     align-items:center;
     justify-content: center;
-    margin: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    align-items: flex-start;
 }
 
 /* !!! HOME: DESTINO VIAGENS !!! */
